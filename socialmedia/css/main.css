@@ -1,0 +1,174 @@
+html{
+	font-family: sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+	color: white;
+}
+
+				/* Header */
+
+header a{
+	color: white;
+}
+
+header{
+	background-color: #3b5998;
+	padding: 15px;
+}
+
+header ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.logo-area{
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	width: 20%;
+}
+
+.logo-area a{
+	color: white;
+	text-decoration: none;
+}
+.icon-links{
+	display: inline-block;
+	width: 20%;
+	margin-left: -4px;
+	border-right: 1px solid rgba(255, 255, 255, .8);
+	text-align: right;
+	padding-right: 20px;
+}
+
+.icon-links .home{
+	display: inline-block;
+	color: white;
+}
+.menu{
+	display: inline-block;
+	width: 20%;
+	margin-left: -4px;
+	border-right: 1px solid rgba(255, 255, 255, .8);
+}
+
+.menu .quick-options{
+	display: inline-block;
+	padding-left: 100px;
+}
+
+.privacy{
+	display: inline-block;
+
+}
+
+.privacy .lock{
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.privacy .lock i{
+	padding-left: 10px; 
+}
+
+.search-area{
+	display: inline-block;
+	width: 35%;
+	text-align: right;
+	margin-left: -4px;
+}
+
+.search-area .search{
+	display: inline-block;
+
+}
+
+.exit{
+	display: inline-block;
+}
+
+/* Top Section */
+
+#top-area{
+	padding: 200px 15px 90px 15px;
+	background: url(https://images.pexels.com/photos/2093119/pexels-photo-2093119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#top-area .profile-info .user-image{
+	padding: 10px;
+	display: inline-block;
+}
+#top-area .profile-info .user-image img{
+	border-radius: 50%;
+}
+
+#top-area .profile-info .user-info{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#top-area .profile-info .user-info h3{
+	font-size: 24px;
+	color: white;
+	margin-top: 40px;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+#top-area .profile-info .user-info a{
+	color: white;
+	display: inline-block;
+	margin-left: -4px;
+	width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	background: rgba(255, 255, 255, .3);
+	font-size: 7px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px;
+	transition: background .3s;
+}
+
+#top-area .profile-info .user-info a:hover{
+	background: #2196F3;
+}
+
+/*     Content Area    */
+
+.main-area {
+    width: 66%;
+    padding: 10px 100px 10px 100px;
+    float: left;
+    background: red;
+}
+
+.side-area {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: right;
+    background: blue;
+}
+
+@media only screen and (max-width: 1600px) {
+
+   .main-area {
+        width: 100%;
+        padding-bottom: 10px;
+        float: right;
+    }
+
+    .side-area {
+        width: 100%;
+        padding-bottom: 10px;
+        float: left;
+    }
+    
+}
